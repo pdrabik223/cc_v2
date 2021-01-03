@@ -1,0 +1,5 @@
+C:/Users/my pisi/Documents/chess/cc_v2/out/build/x64-Debug (domyślnie)/CMakeFiles/edit_cache.dir
+C:/Users/my pisi/Documents/chess/cc_v2/out/build/x64-Debug (domyślnie)/CMakeFiles/rebuild_cache.dir
+C:/Users/my pisi/Documents/chess/cc_v2/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/cc_v2.dir
+C:/Users/my pisi/Documents/chess/cc_v2/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/edit_cache.dir
+C:/Users/my pisi/Documents/chess/cc_v2/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/rebuild_cache.dir
