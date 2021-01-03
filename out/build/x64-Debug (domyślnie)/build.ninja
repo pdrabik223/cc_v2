@@ -113,6 +113,34 @@ build cc_v2\CMakeFiles\cc_v2.dir\king.cpp.obj: CXX_COMPILER__cc_v2_Debug ..\..\.
   TARGET_COMPILE_PDB = cc_v2\CMakeFiles\cc_v2.dir\
   TARGET_PDB = cc_v2\cc_v2.pdb
 
+build cc_v2\CMakeFiles\cc_v2.dir\move.cpp.obj: CXX_COMPILER__cc_v2_Debug ..\..\..\cc_v2\move.cpp || cmake_object_order_depends_target_cc_v2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  OBJECT_FILE_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  TARGET_COMPILE_PDB = cc_v2\CMakeFiles\cc_v2.dir\
+  TARGET_PDB = cc_v2\cc_v2.pdb
+
+build cc_v2\CMakeFiles\cc_v2.dir\bishop.cpp.obj: CXX_COMPILER__cc_v2_Debug ..\..\..\cc_v2\bishop.cpp || cmake_object_order_depends_target_cc_v2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  OBJECT_FILE_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  TARGET_COMPILE_PDB = cc_v2\CMakeFiles\cc_v2.dir\
+  TARGET_PDB = cc_v2\cc_v2.pdb
+
+build cc_v2\CMakeFiles\cc_v2.dir\rook.cpp.obj: CXX_COMPILER__cc_v2_Debug ..\..\..\cc_v2\rook.cpp || cmake_object_order_depends_target_cc_v2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  OBJECT_FILE_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  TARGET_COMPILE_PDB = cc_v2\CMakeFiles\cc_v2.dir\
+  TARGET_PDB = cc_v2\cc_v2.pdb
+
+build cc_v2\CMakeFiles\cc_v2.dir\queen.cpp.obj: CXX_COMPILER__cc_v2_Debug ..\..\..\cc_v2\queen.cpp || cmake_object_order_depends_target_cc_v2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  OBJECT_FILE_DIR = cc_v2\CMakeFiles\cc_v2.dir
+  TARGET_COMPILE_PDB = cc_v2\CMakeFiles\cc_v2.dir\
+  TARGET_PDB = cc_v2\cc_v2.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cc_v2
@@ -121,7 +149,7 @@ build cc_v2\CMakeFiles\cc_v2.dir\king.cpp.obj: CXX_COMPILER__cc_v2_Debug ..\..\.
 #############################################
 # Link the executable cc_v2\cc_v2.exe
 
-build cc_v2\cc_v2.exe: CXX_EXECUTABLE_LINKER__cc_v2_Debug cc_v2\CMakeFiles\cc_v2.dir\cc_v2.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\board.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\piece.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\pawn.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\knight.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\king.cpp.obj
+build cc_v2\cc_v2.exe: CXX_EXECUTABLE_LINKER__cc_v2_Debug cc_v2\CMakeFiles\cc_v2.dir\cc_v2.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\board.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\piece.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\pawn.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\knight.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\king.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\move.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\bishop.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\rook.cpp.obj cc_v2\CMakeFiles\cc_v2.dir\queen.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

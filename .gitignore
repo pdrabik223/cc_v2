@@ -338,3 +338,13 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/out/build/x64-Debug (domyślnie)/.cmake/api/v1/reply/codemodel-v2-6e58665b480a5fdb1e8e.json
+/out/build/x64-Debug (domyślnie)/.cmake/api/v1/reply/index-2021-01-03T15-34-38-0995.json
+/out/build/x64-Debug (domyślnie)/.cmake/api/v1/reply/target-cc_v2-Debug-b46ea0a7680d73a8f3cc.json
+/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/cc_v2.dir/embed.manifest
+/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/cc_v2.dir/intermediate.manifest
+/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/cc_v2.dir/manifest.rc
+/out/build/x64-Debug (domyślnie)/cc_v2/CMakeFiles/cc_v2.dir/manifest.res
+/out/build/x64-Debug (domyślnie)/cc_v2/cc_v2.exe
+/out/build/x64-Debug (domyślnie)/.ninja_deps
+/out/build/x64-Debug (domyślnie)/.ninja_log
