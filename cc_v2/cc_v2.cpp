@@ -8,7 +8,9 @@
 int main()
 {
 
-
+	//for now in console 
+	//later will add some js ui 
+	//for now console
 	std::cout << "Hello CMake." << std::endl;
 	return 0;
 }
