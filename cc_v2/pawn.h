@@ -10,4 +10,5 @@ public:
 	std::vector<mov>gen_moves(unsigned);
 	char show() { return 'p'; }
 	double value() { return color*1; }
+	
 };

@@ -27,6 +27,10 @@ mov& mov::operator=(const mov& other)
 
 
 }
+std::string mov::show()
+{
+	return std::string("from: "+std::to_string(from)+" to: "+std::to_string(to)+" score: "+std::to_string(score));
+}
 bool operator<(const mov& this_one, const mov& other) {
 	return this_one.score < other.score;
 }

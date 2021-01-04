@@ -1,4 +1,5 @@
 #pragma once
+#include <string>
 //#ifndef MOVE
 
 //#define MOVE
@@ -11,11 +12,12 @@ public:
 
 	mov(const mov&);
 	mov& operator=(const mov&);
-	friend bool operator<(const mov&,const mov&);
-	friend bool operator>(const mov&,const mov&);
-	friend bool operator<=(const mov&,const mov&);
-	friend bool operator>=(const mov&,const mov&);
-	friend bool operator==(const mov&,const mov&);
+	friend bool operator<(const mov&, const mov&);
+	friend bool operator>(const mov&, const mov&);
+	friend bool operator<=(const mov&, const mov&);
+	friend bool operator>=(const mov&, const mov&);
+	friend bool operator==(const mov&, const mov&);
+	std::string show();
 private:
 	unsigned short from;
 	unsigned short to;

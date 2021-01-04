@@ -2,7 +2,7 @@
 //
 
 #include "cc_v2.h"
-
+#include "board.h"
 
 
 int main()
@@ -11,7 +11,8 @@ int main()
 	//for now in console 
 	//later will add some js ui 
 	//for now console
-
+	Board first;
+	first.show();
 
 
 	return 0;

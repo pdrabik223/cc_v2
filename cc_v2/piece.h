@@ -8,12 +8,14 @@
 class piece
 {
 public:
-	piece() = delete;
+	piece() { color = EMPTY; };
 	piece(char color) { this->color = color; }
 	piece& operator=(const piece&);
-	virtual std::vector<mov> gen_moves(unsigned)=0;
-	virtual char show() = 0;
-	virtual double value() = 0;
+ //std::vector<mov> gen_moves(unsigned);
+ char show() { return ' '; };
+	
+ double value() { return 0; };
+
 
 protected:
 	 char color;
