@@ -10,9 +10,11 @@ class piece
 public:
 	piece() { color = EMPTY; };
 	piece(char color) { this->color = color; }
-	piece& operator=(const piece&);
- //std::vector<mov> gen_moves(unsigned);
- char show() { return ' '; };
+	piece& operator=(const piece& other) { if (this != &other) this->color = other.color; return *this; };
+	piece* operator=(const piece* other) { if (this != other) this->color = other->color; return this; };
+
+	 std::vector<mov> gen_moves(unsigned position) { return std::vector<mov>(); };
+ virtual char show() { return '_'; };
 	
  double value() { return 0; };
 

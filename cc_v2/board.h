@@ -18,11 +18,11 @@ public:
 	Board();
 	double evaluate();
 	
-	std::vector<mov> gen_moves_in_position();
+	std::vector<mov> gen_moves_in_position(unsigned);
 
 	void show();
 protected:
-	std::vector<piece> chess_board;
+	piece* chess_board[64];
 	bool white_castle;
 	bool black_castle;
 
