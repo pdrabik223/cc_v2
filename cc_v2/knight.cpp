@@ -57,3 +57,15 @@ std::vector<mov>night::gen_moves(unsigned position) {
 	return moves;
 
 }
+
+void night::check_moves(std::vector<mov>& moves, std::vector<double> board_slice)
+{
+
+	std::vector<mov> check_moves;
+	for (int i = 0; i < moves.size(); i++)
+		if (board_slice[i] * color >= 0)
+			check_moves.push_back(moves[i]);
+
+	moves = check_moves;
+
+}

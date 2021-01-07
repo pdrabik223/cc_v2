@@ -28,3 +28,10 @@ std::vector<mov> rook::gen_moves(unsigned position)
 
 	return moves;
 }
+
+void rook::check_moves(std::vector<mov>& moves, std::vector<double> board_slice)
+{
+	if (moves.empty())return;
+
+
+}

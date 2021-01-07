@@ -18,6 +18,11 @@ public:
 	friend bool operator>=(const mov&, const mov&);
 	friend bool operator==(const mov&, const mov&);
 	std::string show();
+	unsigned short get_to() { return this->to; };
+	unsigned short get_from() { return this->from; };
+	double get_score() { return this->score; };
+
+
 private:
 	unsigned short from;
 	unsigned short to;

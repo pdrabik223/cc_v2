@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "piece.h"
 class rook :public piece
 {
@@ -9,7 +9,9 @@ public:
 	rook* operator=(const rook* other) { if (this != other) this->color = other->color; return this; };
 
 	std::vector<mov> gen_moves(unsigned);
-	char show() { return 'r'; }
+	void check_moves(std::vector<mov>& moves, std::vector<double> board_slice);
+	char id() { if (color == WHITE) return 6+4; else return 4; };
+	wchar_t show() { return 'r'; }
 	double value() { return color*5;}
 private:
 

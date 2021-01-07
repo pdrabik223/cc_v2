@@ -26,3 +26,55 @@ std::vector<mov> bishop::gen_moves(unsigned position)
 
 	return moves;
 }
+
+void bishop::check_moves(std::vector<mov>& moves, std::vector<double> board_slice)
+{
+	if (moves.empty())return;
+	short px = moves[0].get_from() / 8, py = moves[0].get_from() % 8;
+	std::vector<mov>  legal_moves;
+
+	int i = 0, eraser = 0;
+
+	for (; i < px - 1; i++)
+	{
+		if (board_slice[i] * color == 0) legal_moves.push_back(moves[i]);
+		else if (board_slice[i] * color > 0) break;
+		else {
+			legal_moves.push_back(moves[i]); break;
+		}
+	}
+	int j = i;
+	for (; j < py - 1; j++) {
+		if (board_slice[j] * color == 0) legal_moves.push_back(moves[j]);
+		else if (board_slice[j] * color > 0) break;
+		else {
+			legal_moves.push_back(moves[j]); break;
+		}
+	}
+	i = j;
+	for (; i < 7 - px; i++)
+	{
+		if (board_slice[i] * color == 0) legal_moves.push_back(moves[i]);
+		else if (board_slice[i] * color > 0) break;
+		else {
+			legal_moves.push_back(moves[i]); break;
+		}
+	}
+	j = i;
+	for (; j < 7 - py; j++) {
+		if (board_slice[j] * color == 0) legal_moves.push_back(moves[j]);
+		else if (board_slice[j] * color > 0) break;
+		else {
+			legal_moves.push_back(moves[j]); break;
+		}
+	}
+
+	moves = legal_moves;
+
+
+	// so moves is ordered kinda 
+		// in a way that \
+					\\	  \	
+
+
+}

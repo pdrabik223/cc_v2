@@ -28,3 +28,18 @@ std::vector<mov> king::gen_moves(unsigned position)// is in range 0-64
     return moves;
 
 }
+
+void king::check_moves(std::vector<mov>& moves, std::vector<double> board_slice)
+{
+    std::vector<mov> check_moves;
+    for (int i = 0; i < moves.size(); i++)
+        if (board_slice[i] * color >= 0)
+            check_moves.push_back(moves[i]);
+
+
+    // tu jeszcze czeba wciepaæ szach ehhhhhhhhhhhhhhhh
+    // hhhhh
+    moves = check_moves;
+
+
+}

@@ -19,6 +19,9 @@ public:
 	double evaluate();
 	
 	std::vector<mov> gen_moves_in_position(unsigned);
+	unsigned short gen_snapshot();
+
+
 
 	void show();
 protected:

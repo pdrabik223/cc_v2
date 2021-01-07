@@ -6,7 +6,8 @@ public:
 	empty(char color) :piece(color) {};
 
 	std::vector<mov>gen_moves(unsigned position) { return std::vector<mov>(); };
-	char show() { return '_'; }
+	char id() { return 0; };
+	wchar_t show() { return ' '; }
 	double value() { return 0; }
 
 };
